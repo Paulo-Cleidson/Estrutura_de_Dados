@@ -67,3 +67,4 @@ pilha.desempilhar()
 pilha.desempilhar()
 
 print(pilha.esta_vazia())
+
