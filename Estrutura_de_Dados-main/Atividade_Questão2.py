@@ -59,8 +59,19 @@ class GerenciamntoPedidos:
         print("lista redo: ", self.acao_redo)
 
 
-# teste adicionar pedidos
+    def pedidos_vazia(self):
+        if len(self.pedidos) == 0:
+            return True
+        else:
+            return False
+
+
 Fip_Burguer = GerenciamntoPedidos()
+
+#teste pedidos vazia
+print(Fip_Burguer.pedidos_vazia())
+
+# teste adicionar pedidos
 Fip_Burguer.adicionar_pedido("Pedido 1")
 Fip_Burguer.adicionar_pedido("Pedido 2")
 Fip_Burguer.adicionar_pedido("Pedido 3")
@@ -77,3 +88,7 @@ Fip_Burguer.imprimir()
 # teste refazer
 Fip_Burguer.refazer()
 Fip_Burguer.imprimir()
+
+#teste pedidos vazia
+print(Fip_Burguer.pedidos_vazia())
+
