@@ -58,6 +58,7 @@ class GerenciamntoPedidos:
         print("lista undo: ", self.acao_undo)
         print("lista redo: ", self.acao_redo)
 
+
 # teste adicionar pedidos
 Fip_Burguer = GerenciamntoPedidos()
 Fip_Burguer.adicionar_pedido("Pedido 1")
